@@ -18,6 +18,16 @@ resource "aws_security_group" "elb-sg" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+#added
+  # SSH access 
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  
+# Outbound Rules
   # Internet access to anywhere
   egress {
     from_port   = 0
@@ -26,3 +36,5 @@ resource "aws_security_group" "elb-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+
