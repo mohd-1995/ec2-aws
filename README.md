@@ -4,5 +4,5 @@ I used a VPC with public subnets, autoscaling group and elastic load balancer to
 
 
 Click **HERE** to view my website
-http://moesportfolio.com
->>>>>>> ae23dcb73ab37ac396f7d90fb4b1ce8b81dfdbe1
+http://moesportfolio.com << currently updating my website and creating a python chatbot. Will be up and rurnning shortly
+
